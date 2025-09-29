@@ -40,6 +40,15 @@ body {
   color: #555 !important;       /* stay gray on hover too */
 }
 
+.icons a,
+.icons a:visited,
+.icons a:active,
+.icons a:hover,
+.icons a:focus {
+  color: #555 !important;   /* force gray */
+  text-decoration: none !important;
+}
+
 
 
 heading { font-size: 22px; }
