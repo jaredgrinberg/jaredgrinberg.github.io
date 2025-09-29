@@ -30,6 +30,15 @@ body {
 }
 .site-nav a:hover { color: #c58b5c; }
 
+.icons a {
+  margin: 0 8px;
+  font-size: 1.4rem;
+  color: #305b81;
+}
+.icons a:hover {
+  color: #c58b5c;
+}
+
 heading { font-size: 22px; }
 papertitle { font-size: 16px; font-weight: 1000; }
 name { font-size: 32px; line-height:130%; }
