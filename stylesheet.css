@@ -30,6 +30,17 @@ body {
 }
 .site-nav a:hover { color: #c58b5c; }
 
+.icons a {
+  color: inherit;         /* inherit text color (black/gray) */
+  text-decoration: none;  /* no underline */
+  margin: 0 8px;
+}
+
+.icons a:hover {
+  color: inherit;         /* stay neutral on hover */
+}
+
+
 heading { font-size: 22px; }
 papertitle { font-size: 16px; font-weight: 1000; }
 name { font-size: 32px; line-height:130%; }
