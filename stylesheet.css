@@ -11,10 +11,6 @@ body {
   background: #f9f9fb; /* off-white */
 }
 
-[id] {
-  scroll-margin-top: 80px; /* adjust if nav bar height changes */
-}
-
 .site-nav {
   position: fixed;
   top: 0;
