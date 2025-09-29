@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 70px; /* match or slightly bigger than nav bar height */
+}
+
 body {
   margin-top: 60px;
   margin-bottom: 60px;
