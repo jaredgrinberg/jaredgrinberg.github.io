@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/stylesheet.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  {% include nav.html %}
+  <table style="width:100%;max-width:900px;margin:auto;border-spacing:0;">
+    <tbody>
+      <tr><td>
+        {% include header.html %}
+        {% include about.html %}
+        {% include news.html %}
+        {% include education.html %}
+        {% include experience.html %}
+        {% include awards.html %}
+        {% include research.html %}
+        {% include projects.html %}
+        {% include publications.html %}
+        {% include mentorship.html %}
+        {% include footer.html %}
+      </td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
