@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 70px; /* match or slightly bigger than nav bar height */
+  scroll-behavior: smooth; /* smooth scrolling */
 }
 
 body {
@@ -9,6 +9,10 @@ body {
   line-height: 155%;
   font-size: 14.4px;
   background: #f9f9fb; /* off-white */
+}
+
+[id] {
+  scroll-margin-top: 80px; /* adjust if nav bar height changes */
 }
 
 .site-nav {
