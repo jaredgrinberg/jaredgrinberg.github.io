@@ -53,9 +53,10 @@ body {
   text-decoration: none !important;
 }
 
-section {
+section table {
   margin-bottom: 40px;
 }
+
 
 heading { font-size: 22px; }
 papertitle { font-size: 16px; font-weight: 1000; }
